@@ -24,8 +24,8 @@ nav{
 .content{
     display: flex;
     flex-direction: column;
-    padding-right: 85px;
     text-align: center;
+    width: 45%;
 }
 
 form{
@@ -97,4 +97,59 @@ textarea::placeholder{
     padding-left: 10px;
 
     color: #FFFFFF;
+}
+
+input[type="button"]{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+
+    width: calc(100% + 10px);
+    height: 69px;
+
+    border: none;
+    background: #FFFFFF;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+@media(max-width:1000px){
+    main{
+        background-image: url('../img/page3/BGsmall.png');
+    }
+
+    h1{
+        font-size: 42px;
+    }
+    .content{
+        width: 100%;
+    }
+
+    .p200{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    input[type="text"]::placeholder{
+        font-size: 20px;
+    }
+    input[type="text"]{
+        font-size: 20px;
+    }
+    textarea{
+        font-size: 20px;
+    }
+    textarea::placeholder{
+        font-size: 20px;
+    }
+    input[type="button"]{
+        font-size: 22px;
+    }
 }

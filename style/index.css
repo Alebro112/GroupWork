@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 a{
     text-decoration: none;
@@ -17,7 +18,7 @@ html, body{
     background-color: white;
     margin: 0 auto;
     width: 75%;
-    font-family: 'Alice', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 header{
