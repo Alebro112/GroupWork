@@ -4,12 +4,14 @@ header{
 }
 nav{
     background-color: #FFF1DB;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
     opacity: 1;
 }
 
 .logo{
     height: 60px;
-    margin-right: 77px;
 }
 
 .products{
