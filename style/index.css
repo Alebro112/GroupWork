@@ -33,12 +33,11 @@ header{
 
 
 nav{
-
     min-height: 72px;
     background-color: #FFF1DB;
-    opacity: 60%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .link{
@@ -51,6 +50,10 @@ nav{
     color: #000000;
 
     mix-blend-mode: normal;
+}
+
+.logo{
+    height: 60px;
 }
 
 main{
