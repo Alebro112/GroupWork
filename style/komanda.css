@@ -115,3 +115,27 @@ h2{
 .personal-content .top-img{
     margin-bottom: 96px;
 }
+@media(max-width:1015px){
+ .personal-content{
+        margin-bottom: 2px;
+        margin-top: 10px;
+        flex-direction: column;
+        align-content: center;
+    }
+ .personal-content .top-img{
+    margin-bottom: 0;
+}
+}
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+        align-items: center;
+    }
+    .admin-img{
+        margin-right: 0;
+    }
+    
+    .email{
+        margin-bottom: 40px;
+    }
+}
