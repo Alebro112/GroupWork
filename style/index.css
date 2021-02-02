@@ -448,7 +448,6 @@ h2{
     nav{
         min-height: 144px;
         background-color: #FFF1DB;
-        opacity: 60%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
